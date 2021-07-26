@@ -97,8 +97,8 @@ Distributed under the BSD 2-Clause License License. See `LICENSE` for more infor
 <!-- CONTACT -->
 ## Contact
 
-Rutger van den Bor - R.M.vandenBor@umcutrecht.nl
-Vjola Hoxhaj - v.hoxhaj@umcutrecht.nl
+Rutger van den Bor - R.M.vandenBor@umcutrecht.nl    
+Vjola Hoxhaj - v.hoxhaj@umcutrecht.nl     
 
-Project Link: [https://github.com/IMI-ConcePTION/Level-2-checks/tree/development](https://github.com/IMI-ConcePTION/Level-2-checks/tree/development)
+Project Link: [https://github.com/IMI-ConcePTION/Level-2-checks](https://github.com/IMI-ConcePTION/Level-2-checks)
 
