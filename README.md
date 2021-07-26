@@ -51,7 +51,7 @@ ConcePTION CDM tables:
 ## Level 2 checks
 
 **Aims of Level 2 quality checks:**      
-**1.**	4.	To assess internal consistency both within and between tables of the [ConcePTION CDM]((https://docs.google.com/spreadsheets/d/1hc-TBOfEzRBthGP78ZWIa13C0RdhU7bK/edit#gid=413205035)) instance for each DAP.       
+**1.**	To assess internal consistency both within and between tables of the [ConcePTION CDM]((https://docs.google.com/spreadsheets/d/1hc-TBOfEzRBthGP78ZWIa13C0RdhU7bK/edit#gid=413205035)) instance for each DAP.       
 
 ***Level 2 data checks assess the logical relationship and integrity of data values within a variable or between two or  more variables within and between tables.  Examples of this type of check include: observations occurring before birth date, observations occurring after a recorded death date, parents aged 12 years old or younger etc.*** 
 
@@ -83,7 +83,7 @@ R version 4.1.0 (2021-05-18)
 4. Inside the main folder create a folder named `CDMInstances`, which will be used to store the .csv files representing the CDM tables(if you already have done so for Level 1 checks skip this step).      
 5. Inside the `CDMInstances` folder create a folder with the name of your project and inside the latter put all your .csv files(if you already have done so for Level 1 checks skip this step).      
 6. In the folder `Level_2_checks_to_be_deployed_v2.0/Study Scripts`, go to the script 99_path.R and change the variable Studyname(line 6) to the name of your project. Make sure that the name of the folder you have created in the folder `CDMInstances` and the name of the variable match exactly. Save it.         
-7.Open the to_run.R script and you are ready to run level 2 checks.    
+7. Open the to_run.R script and you are ready to run level 2 checks.    
 
 ### Current version
 
