@@ -98,18 +98,6 @@ Short version:
 3. In the folder `Level_2_checks_to_be_deployed_v2.0/Study Scripts`, go to the script 99_path.R and change the variable Studyname(line 6) to the name of your project. Make sure that the name of the folder you have created in the folder `CDMInstances` and the name of the variable match exactly. Save it.         
 4. Open the to_run.R script inside the folder `Level_2_checks_to_be_deployed_v2.0/Study Scripts` and you are ready to run the Level 2 checks.    
 
-***Folder structure***
-
-Main folder
-
- * [CDMInstances](./CDMInstances)
-   * [Project_name](./CDMInstances/Project_name)
-     * [files.csv](./CDMInstances/Project_name/files.csv)
-     
- * [Data characterisation](./Data characterisation)
-   * [Level_1_checks_to_be_deployed_v5.2](./Data characterisation/Level_1_checks_to_be_deployed_v5.2)
-   * [Level_2_checks_to_be_deployed2.0](./Data characterisation/Level_2_checks_to_be_deployed2.0)
-   * [Level_3_to_be_deployed1.0](./Data characterisation/Level_3_to_be_deployed1.0)
 
 **Folder structure**
 
