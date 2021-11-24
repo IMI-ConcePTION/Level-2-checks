@@ -78,26 +78,47 @@ R version 4.1.0 (2021-05-18)
 
 ### Installation
 
-1. Download the ZIP folder and extract the contents.   
-2. Create a main folder with the name of your project(if you already have done so for Level 1 checks skip this step).     
-3. Inside the main folder create the folder `Data characterisation`. Put the extracted folder inside.   
-4. Inside the main folder create a folder named `CDMInstances`, which will be used to store the .csv files representing the CDM tables(if you already have done so for Level 1 checks skip this step).      
-5. Inside the `CDMInstances` folder create a folder with the name of your project and inside the latter put all your .csv files(if you already have done so for Level 1 checks skip this step).      
-6. In the folder `Level_2_checks_to_be_deployed_v2.0/Study Scripts`, go to the script 99_path.R and change the variable Studyname(line 6) to the name of your project. Make sure that the name of the folder you have created in the folder `CDMInstances` and the name of the variable match exactly. Save it.         
-7. Open the to_run.R script and you are ready to run level 2 checks.    
+If you have applied the Level 1 on your data follow the shorten version of the installation steps.
 
-***Folder structure***
+1.	Click the green button **Code** on the top of the GitHub page, download the ZIP folder using the **Download ZIP** button and extract the contents. Remember where you stored the extracted ZIP folder on your computer, you will use it later.   
+2.	Create a main folder with the name of your project (`Project_name`). We suggest to use a clear and short name, only using lower-case letters.
+3.	Create the folder `Data characterisation` inside the main folder `Project_name`. 
+4.	Copy the folder `Level_2_checks_to_be_deployed_v2.0` from the extracted folder zip file that we downloaded in step 1 inside the new folder `Data characterisation`. 
+5.	Create a folder named `CDMInstances` inside the main folder `Project_name`, which will be used to store the .csv files representing the CDM tables.
+6.	Create a folder with the name of your project inside the `CDMInstances` folder (use the same name as in Step 2).
+7.	Copy all your .csv data files (that follow the Common Data Model) within the folder created in Step 7.
+8.	Go to the script *99_path.R* in the folder `Level_2_checks_to_be_deployed_v2.0/Study Scripts`, and change the variable Studyname (line 6 in the code) to the name of your project. Make sure that the name of the folder created in the folder `CDMInstances` and the name of the variable match exactly. Save it.
+9.	Open the *script_to_run_all.R*  script in **R-studio** and you are ready to run level 1 checks.
 
-Main folder
 
- * [CDMInstances](./CDMInstances)
-   * [Project_name](./CDMInstances/Project_name)
-     * [files.csv](./CDMInstances/Project_name/files.csv)
-     
- * [Data characterisation](./Data characterisation)
-   * [Level_1_checks_to_be_deployed_v5.2](./Data characterisation/Level_1_checks_to_be_deployed_v5.2)
-   * [Level_2_checks_to_be_deployed2.0](./Data characterisation/Level_2_checks_to_be_deployed2.0)
-   * [Level_3_to_be_deployed1.0](./Data characterisation/Level_3_to_be_deployed1.0)
+Short version:
+
+1. Click the green button **Code** on the top of the GitHub page, download the ZIP folder using the **Download ZIP** button and extract the contents. Remember where you stored the extracted ZIP folder on your computer, you will use it later.        
+2. Copy the folder `Level_2_checks_to_be_deployed_v2.0` from the extracted folder zip file that we downloaded in step 1 inside the folder `Data characterisation`. 
+3. In the folder `Level_2_checks_to_be_deployed_v2.0/Study Scripts`, go to the script 99_path.R and change the variable Studyname(line 6) to the name of your project. Make sure that the name of the folder you have created in the folder `CDMInstances` and the name of the variable match exactly. Save it.         
+4. Open the to_run.R script inside the folder `Level_2_checks_to_be_deployed_v2.0/Study Scripts` and you are ready to run the Level 2 checks.    
+
+
+**Folder structure**
+
+* [Project_name](./Project_name) (Main Folder)
+
+    * [CDMInstances](./CDMInstances)
+        * [Project_name](./CDMInstances/Project_name)
+            * [files.csv](./CDMInstances/Project_name/files.csv) (here your files)    
+     * [Data characterisation](./Data characterisation) 
+       * [Level_1_checks_to_be_deployed_v5.2](./Data characterisation/Level_1_checks_to_be_deployed_v5.2)
+       * [Level_2_checks_to_be_deployed2.0](./Data characterisation/Level_2_checks_to_be_deployed2.0)
+       * [Level_3_to_be_deployed1.0](./Data characterisation/Level_3_to_be_deployed1.0)
+
+**Folder structure example**
+
+<p align="left">
+  <a href="https://github.com/vjolahoxhaj/Level-1-checks">
+    <img src="images/example_folderStructure.png" alt="example" width="284" height="304">
+  </a>
+  </p>
+  
 
 ### Data characterization study links   
 
