@@ -10,6 +10,10 @@
  <h3 align="center">Level 2 checks</h3>
  <p align="center"> R scripts to check the logical relationships between the ConcePTION CDM tables. </p>
  
+ # THIS REPOSITORY REMAINS READ-ONLY, AND IT WILL BE NO LONGER ACTIVELY MAINTAINED
+ 
+ # IF YOU WOULD LIKE TO RUN THE MOST UPDATED SCRIPTS, PLEASE NOW VISIT [HERE](https://github.com/UMC-Utrecht-RWE/ConcePTION-Level2)
+ 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Table of Contents</summary>
